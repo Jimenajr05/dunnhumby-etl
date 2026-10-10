@@ -150,6 +150,7 @@ activemq-data/
 *.sage.py
 
 # Environments
+# Variables de entorno locales que pueden contener credenciales y secretos
 .env
 .envrc
 .venv
@@ -220,6 +221,7 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Base de datos Dunnhumby
+# Datos en formato CSV: se mantienen fuera del control de versiones
 *.csv
 *.zip
 *.backup
@@ -231,3 +233,6 @@ __marimo__/
 
 # Archivos locales de VS Code
 .vscode/
+
+# Archivos comprimidos con gzip (por ejemplo, datos de origen .csv.gz)
+*.gz
