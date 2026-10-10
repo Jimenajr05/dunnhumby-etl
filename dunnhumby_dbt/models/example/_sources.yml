@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: dunnhumby
+    database: DUNNHUMBY_ETL
+    schema: PUBLIC
+
+    tables:
+      - name: CAMPAIGN_DESC
+      - name: CAMPAIGN_TABLE
+      - name: CAUSAL_DATA
+      - name: COUPON
+      - name: COUPON_REDEMPT
+      - name: HH_DEMOGRAPHIC
+      - name: PRODUCT
+      - name: TRANSACTION_DATA
